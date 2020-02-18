@@ -8,10 +8,9 @@ public class TwoDice {
         int randomValue1;
         int randomValue2;
 
-        randomValue1 = ((int)(Math.random() * 100) % HIGHEST_DIE_VALUE + LOWEST_DIE_VALUE);
+        randomValue1 = ((int)(Math.random() * 6) % HIGHEST_DIE_VALUE + LOWEST_DIE_VALUE);
         System.out.println(randomValue1);
-        randomValue2 = ((int)(Math.random() * 100) % HIGHEST_DIE_VALUE + LOWEST_DIE_VALUE);
+        randomValue2 = ((int)(Math.random() * 6) % HIGHEST_DIE_VALUE + LOWEST_DIE_VALUE);
         System.out.println(randomValue2);
     }
-    public static void display
 }
